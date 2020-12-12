@@ -1,0 +1,19 @@
+{
+  "name": "cruip-js-toolkit",
+  "version": "1.0.2",
+  "description": "A JavaScript toolkit for Cruip templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruip/cruip-js-toolkit.git"
+  },
+  "author": "Pasquale Vitiello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cruip/cruip-js-toolkit/issues"
+  },
+  "homepage": "https://github.com/cruip/cruip-js-toolkit#readme"
+}

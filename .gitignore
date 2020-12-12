@@ -12,9 +12,13 @@
 /.next/
 /out/
 
+#vscode
+/.vscode
+
 # production
 /build
-
+/dist
+/.adminbro
 # misc
 .DS_Store
 *.pem
@@ -32,3 +36,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+.vercel
+
+yarn.lock
