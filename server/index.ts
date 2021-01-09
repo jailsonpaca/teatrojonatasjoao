@@ -63,7 +63,7 @@ app.prepare().then(async () => {
   //const parsedUrl = parse(req.url!, true)
   //const { pathname, query } = parsedUrl;
   const server = express();
-  await mongoose.connect(`mongodb+srv://jailsonpaca:${process.env.DB_PASSWORD}@japps-db.yow5c.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`, {
+  await mongoose.connect(`MONGO_URL`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
